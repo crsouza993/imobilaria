@@ -1,0 +1,128 @@
+body{
+    width: 1000px;
+    margin: 20px auto;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 100%;
+    background-color: #ccc;
+    border-collapse: collapse;
+}
+table tr td:first-of-type{
+    text-align: justify;
+}
+table tr td{
+    text-align: center;
+}
+
+table tr td:last-of-type , table tr td:nth-last-of-type(2){
+    text-align: center;
+}
+
+
+table tr td img{
+    width: 60px;
+}
+
+table tr td img:hover{
+    transform: scale(5);
+    transition-duration: 0.5s;
+}
+
+#lista, #busca, #cadastro, #deleta,
+#login, #cabecalho{
+    padding: 10px;
+    border-radius: 10px;
+    border: #555 solid 5px;
+    background-color: #fff;
+}
+
+#busca{
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#busca form{
+    margin-top: -20px;
+}
+
+#busca input, #busca select{
+    float: right;
+    
+}
+#busca select{
+    height: 21px;
+}
+#btnalterar{
+    background-color: yellow;
+    font-weight: bolder;
+}
+#btnexcluir{
+    background-color: tomato;
+    font-weight: bolder;
+
+}
+
+#cadastro{
+    padding-left: 50px;
+   
+}
+
+#pcabecalho{
+    text-align: right;
+}
+
+#cadastro p label, #login p label{
+    display: block;
+
+}
+
+#cadastro p input, #cadastro p select{
+    
+    width: 400px;
+    height: 30px;
+    font-size: 1.2em;
+}
+
+#cadastro p select, #cadastro p input[type="submit"] {
+    width: 408px;
+    height: 36px;
+}
+
+#imgtema{
+    position: relative;
+    top: -519px;
+    left: 499px;
+    width: 476px;
+}
+
+#msg_erro{
+    color: crimson;
+    font-weight: bolder;
+}
+
+#cadastro p textarea{
+    width: 400px;
+    height: 120px;
+}
+
+#deleta button{
+    position: relative;
+    top: -21px;
+    left: 122px;
+}
+
+#login #voltar{
+    position: relative;
+    top: -37px;
+    left: 125px;
+}
+#recupera{
+    font-size: 0.8em;
+    position: relative;
+    top: -41px;
+    left: 54px;
+   color: #333;
+}
